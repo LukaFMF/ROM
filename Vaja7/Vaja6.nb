@@ -1,0 +1,145 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      5322,        135]
+NotebookOptionsPosition[      4470,        111]
+NotebookOutlinePosition[      4811,        126]
+CellTagsIndexPosition[      4768,        123]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Vaja 7", "Title",
+ CellChangeTimes->{{3.7838547133123636`*^9, 
+  3.783854716718262*^9}},ExpressionUUID->"a523271d-4920-47d3-8bd0-\
+c5e1558bc2d8"],
+
+Cell["1. naloga", "Text",
+ CellChangeTimes->{{3.783854724355349*^9, 
+  3.783854732435087*^9}},ExpressionUUID->"80d1e2a5-41cb-40cb-b396-\
+74ec63636d8f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"SetDirectory", "[", 
+  RowBox[{"NotebookDirectory", "[", "]"}], "]"}]], "Input",
+ CellChangeTimes->{{3.7838547368031797`*^9, 3.7838547520063667`*^9}},
+ CellLabel->"In[1]:=",ExpressionUUID->"4a34d9df-54c0-41ee-a1c7-d7ed511d8103"],
+
+Cell[BoxData["\<\"U:\\\\ROM\\\\ROM\\\\Vaja7\"\>"], "Output",
+ CellChangeTimes->{3.783854753171057*^9},
+ CellLabel->"Out[1]=",ExpressionUUID->"19e001c7-bfc5-4967-8fad-dadc7165d154"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"rez", " ", "=", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"Import", "[", "\"\<rezultati.xlsx\>\"", "]"}], "//", "First"}], "//",
+    "TableForm"}]}]], "Input",
+ CellChangeTimes->{{3.783854760868884*^9, 3.783854866004174*^9}, {
+  3.783854903279872*^9, 3.783854940978313*^9}},
+ CellLabel->"In[13]:=",ExpressionUUID->"9118c9b1-db5e-4dd1-a309-dfb92a99935b"],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {"\<\"Priimek\"\>", "\<\"Ime\"\>", "\<\"Skupina\"\>", \
+"\<\"To\[CHacek]ke\"\>"},
+    {"\<\"Furlan\"\>", "\<\"Luka\"\>", "\<\"A\"\>", "93.`"},
+    {"\<\"Karaka\[SHacek]\"\>", "\<\"Alenka\"\>", "\<\"A\"\>", "94.`"},
+    {"\<\"Ko\[CHacek]ar\"\>", "\<\"Petra\"\>", "\<\"B\"\>", "44.`"},
+    {"\<\"Kofol\"\>", "\<\"Andra\[ZHacek]\"\>", "\<\"C\"\>", "34.`"},
+    {"\<\"Kumar\"\>", "\<\"Barbara\"\>", "\<\"B\"\>", "67.`"},
+    {"\<\"Logar\"\>", "\<\"Mateja\"\>", "\<\"A\"\>", "42.`"},
+    {"\<\"Pance\"\>", "\<\"Martin\"\>", "\<\"B\"\>", "64.`"},
+    {"\<\"Pleterski\"\>", "\<\"Vesna\"\>", "\<\"C\"\>", "30.`"},
+    {"\<\"Tr\[CHacek]ek\"\>", "\<\"Valerija\"\>", "\<\"B\"\>", "70.`"},
+    {"\<\"Virant\"\>", "\<\"Primo\[ZHacek]\"\>", "\<\"C\"\>", "58.`"},
+    {"\<\"Vesel\"\>", "\<\"Polona\"\>", "\<\"C\"\>", "66.`"},
+    {"\<\"\[CapitalZHacek]vegli\[CHacek]\"\>", "\<\"Katarina\"\>", \
+"\<\"A\"\>", "46.`"},
+    {"\<\"Cvelbar\"\>", "\<\"Janja\"\>", "\<\"B\"\>", "39.`"},
+    {"\<\"Furlan\"\>", "\<\"Ale\[SHacek]\"\>", "\<\"B\"\>", "36.`"},
+    {"\<\"Iskra\"\>", "\<\"Sabina\"\>", "\<\"A\"\>", "77.`"},
+    {"\<\"Jerman\"\>", "\<\"Katja\"\>", "\<\"B\"\>", "100.`"},
+    {"\<\"Karni\[CHacek]ar\"\>", "\<\"Jaka\"\>", "\<\"C\"\>", "26.`"},
+    {"\<\"Koro\[SHacek]ec\"\>", "\<\"Kristina\"\>", "\<\"B\"\>", "86.`"},
+    {"\<\"Kr\[ZHacek]i\[SHacek]nik\"\>", "\<\"Grega\"\>", "\<\"B\"\>", "90.`"},
+    {"\<\"Obrenovi\[CAcute]\"\>", "\<\"Tatjana\"\>", "\<\"C\"\>", "44.`"},
+    {"\<\"Puncer\"\>", "\<\"Primo\[ZHacek]\"\>", "\<\"A\"\>", "57.`"},
+    {"\<\"Ribnikar\"\>", "\<\"Matja\[ZHacek]\"\>", "\<\"A\"\>", "43.`"},
+    {"\<\"\[CapitalSHacek]temberger\"\>", "\<\"Igor\"\>", "\<\"B\"\>", "85.`"},
+    {"\<\"\[CapitalSHacek]uba\[SHacek]i\[CHacek]\"\>", "\<\"Matej\"\>", \
+"\<\"C\"\>", "76.`"},
+    {"\<\"Tekav\[CHacek]i\[CHacek]\"\>", "\<\"Aleksander\"\>", "\<\"A\"\>", 
+     "34.`"},
+    {"\<\"Tratnik\"\>", "\<\"Mojca\"\>", "\<\"B\"\>", "79.`"},
+    {"\<\"Smrekar\"\>", "\<\"Andreja\"\>", "\<\"A\"\>", "38.`"},
+    {"\<\"Bezek\"\>", "\<\"Toma\[ZHacek]\"\>", "\<\"B\"\>", "38.`"}
+   },
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxSpacings->{"Columns" -> {
+       Offset[0.27999999999999997`], {
+        Offset[2.0999999999999996`]}, 
+       Offset[0.27999999999999997`]}, "Rows" -> {
+       Offset[0.2], {
+        Offset[0.4]}, 
+       Offset[0.2]}}],
+  Function[BoxForm`e$, 
+   TableForm[BoxForm`e$]]]], "Output",
+ CellChangeTimes->{{3.783854777718669*^9, 3.7838548671877813`*^9}, {
+  3.7838549190126534`*^9, 3.783854942123051*^9}},
+ CellLabel->
+  "Out[13]//TableForm=",ExpressionUUID->"907fba7d-4643-4a70-894d-\
+00ee617c3619"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{958, 988},
+WindowMargins->{{Automatic, -7}, {Automatic, 0}},
+FrontEndVersion->"12.0 for Microsoft Windows (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 151, 3, 96, "Title",ExpressionUUID->"a523271d-4920-47d3-8bd0-c5e1558bc2d8"],
+Cell[734, 27, 151, 3, 34, "Text",ExpressionUUID->"80d1e2a5-41cb-40cb-b396-74ec63636d8f"],
+Cell[CellGroupData[{
+Cell[910, 34, 252, 4, 28, "Input",ExpressionUUID->"4a34d9df-54c0-41ee-a1c7-d7ed511d8103"],
+Cell[1165, 40, 180, 2, 32, "Output",ExpressionUUID->"19e001c7-bfc5-4967-8fad-dadc7165d154"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1382, 47, 371, 8, 28, "Input",ExpressionUUID->"9118c9b1-db5e-4dd1-a309-dfb92a99935b"],
+Cell[1756, 57, 2686, 50, 527, "Output",ExpressionUUID->"907fba7d-4643-4a70-894d-00ee617c3619"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
